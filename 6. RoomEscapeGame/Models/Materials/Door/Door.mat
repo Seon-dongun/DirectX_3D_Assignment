@@ -1,0 +1,13 @@
+<Material Name="Door" Shader="Light/Light.hlsl">
+    <Texture>
+        <DiffsueMap DM="Textures/Model/Door/Door_albedo.png"/>
+        <SpecularMap SM="Textures/Model/Door/Door_metallic.png"/>
+        <NormalMap NM="Textures/Model/Door/Door_normal.png"/>
+    </Texture>
+    <Property Shininess="25" HasNormalMap="0">
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Property>
+</Material>

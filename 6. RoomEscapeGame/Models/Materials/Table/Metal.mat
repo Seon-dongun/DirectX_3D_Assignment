@@ -1,0 +1,13 @@
+<Material Name="Metal" Shader="Light/Light.hlsl">
+    <Texture>
+        <DiffsueMap DM="Textures/Colors/White.png"/>
+        <SpecularMap SM="Textures/Colors/White.png"/>
+        <NormalMap NM="Textures/Colors/Blue.png"/>
+    </Texture>
+    <Property Shininess="100" HasNormalMap="0">
+        <Diffuse R="0.81568599" G="0.81568599" B="0.81568599" A="1"/>
+        <Specular R="0.81568599" G="0.81568599" B="0.81568599" A="1"/>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Property>
+</Material>

@@ -1,0 +1,7 @@
+<Material Name="" Shader="Light/NormalMapping.hlsl">
+    <Texture>
+        <DiffsueMap DM="Textures/Colors/White.png"/>
+        <SpecularMap SM="Textures/Colors/White.png"/>
+        <NormalMap NM="Textures/Colors/Blue.png"/>
+    </Texture>
+</Material>

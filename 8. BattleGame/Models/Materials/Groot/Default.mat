@@ -1,0 +1,13 @@
+<Material Name="Groot" Shader="Model/Model.hlsl">
+    <Texture>
+        <DiffsueMap DM="Textures\Model\Groot\groot_diffuse.png"/>
+        <SpecularMap SM="Textures\Model\Groot\groot_glossiness.png"/>
+        <NormalMap NM="Textures\Model\Groot\groot_normal_map.png"/>
+    </Texture>
+    <Property Shininess="10.000002" HasNormalMap="1">
+        <Diffuse R="1" G="1" B="1" A="1"/>
+        <Specular R="1" G="1" B="1" A="1"/>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Property>
+</Material>
